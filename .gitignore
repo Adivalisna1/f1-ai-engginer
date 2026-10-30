@@ -1,0 +1,52 @@
+# ==========================================
+# 1. Environment Variables & Secret API Keys
+# ==========================================
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# 2. Repomix & Local AI Prompt Rules
+# ==========================================
+repomix*
+*repomix*
+repomix-output.*
+rule.md
+skill.md
+
+# ==========================================
+# 3. Runtime Generated Audio Files (PTT & TTS)
+# ==========================================
+driver_radio.wav
+gp_raw_response.mp3
+gp_radio_final.wav
+beep_in.wav
+beep_out.wav
+test_mic_playback.wav
+*.wav
+*.mp3
+
+# ==========================================
+# 4. Python Virtual Environment & Cache
+# ==========================================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# 5. IDE & OS Metadata
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+

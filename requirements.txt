@@ -1,0 +1,10 @@
+google-generativeai
+elevenlabs
+edge-tts
+sounddevice
+scipy
+numpy
+pygame-ce
+keyboard
+python-dotenv
+
